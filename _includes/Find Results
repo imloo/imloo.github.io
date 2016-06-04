@@ -1,0 +1,37 @@
+Searching 45 files for "多说"
+
+/Users/daisylliu/Documents/imloo.github.io/_layouts/default.html:
+   24      {% include footer.html %}
+   25  
+   26: <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+   27  <script type="text/javascript">
+   28  var duoshuoQuery = {short_name:"daisylliu"};
+   ..
+   36    })();
+   37    </script>
+   38: <!-- 多说公共JS代码 end -->
+   39  
+   40  <!-- 在新窗口中打开 -->
+
+/Users/daisylliu/Documents/imloo.github.io/_layouts/page.html:
+   12  </div>
+   13  <div class="post-area post comment">
+   14:     <!-- 多说评论框 start -->
+   15      
+   16      <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="imloo.github.io{{ page.url }}"></div>
+   17      
+   18:     <!-- 多说评论框 end -->
+   19  </div>
+   20  
+
+/Users/daisylliu/Documents/imloo.github.io/_layouts/post.html:
+   18      </div>
+   19      <div class="post-area post comment">
+   20:       <!-- 多说评论框 start -->
+   21      
+   22        <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="imloo.github.io{{ page.url }}"></div>
+   23      
+   24:       <!-- 多说评论框 end -->
+   26    </div>
+
+6 matches across 3 files
